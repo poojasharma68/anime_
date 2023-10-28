@@ -1,0 +1,26 @@
+#full_page_character{
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    height: 100vh;
+}
+#head_details_character{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.84) 0px 3px 8px;
+}
+#img_4{
+    height: 250px;
+}
+#info_of_character{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

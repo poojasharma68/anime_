@@ -1,0 +1,40 @@
+.header_of_web{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(31, 31, 32);
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+}
+.header_links{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.header_links li,h3{
+    color: white;
+    padding: 5px;
+}
+.header_links li:hover{
+    background-color: crimson;
+    border-radius: 7px;
+    box-shadow: crimson 2px 3px 5px;
+}
+#btn2_{
+    border-radius: 20px;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    box-shadow: rgb(248, 248, 248) 0px 1px 1px;
+}
+#btn2_:hover{
+    background-color: rgb(10, 252, 30);
+    color: white;
+}
+#carousel{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,42 @@
+#anime{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.allanime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.popularanime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border: 1px solid black;
+    padding-top: 20px;
+}
+
+.head{
+    font-weight: 350;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img1{
+    width: 200px;
+    height: 250px;
+    border: 2px solid rgb(188, 185, 185);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .popularanime{
+        display: none;
+    }    
+}
