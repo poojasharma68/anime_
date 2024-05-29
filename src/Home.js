@@ -77,7 +77,7 @@ function Home(props){
             </div>
           </div>
           <div>
-            <img src={require("./HomeAsesst/vishu_dev.jpg")} alt="not_found" width={250}  height={250} style={{flexBasis:'38%',border:'2px solid rgb(92, 92, 92)',borderRadius:'50%',boxShadow:'rgba(10, 0, 27, 200) 0px 3px 8px',opacity:0.9}}></img>
+            {/* <img src={require("./HomeAsesst/vishu_dev.jpg")} alt="not_found" width={250}  height={250} style={{flexBasis:'38%',border:'2px solid rgb(92, 92, 92)',borderRadius:'50%',boxShadow:'rgba(10, 0, 27, 200) 0px 3px 8px',opacity:0.9}}></img> */}
           </div>
         </div>
         <div style={{backgroundColor:'rgb(241, 241, 245)',marginTop:'-8px',padding:'10px',height:'300px'}}>
